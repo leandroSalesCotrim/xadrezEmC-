@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp1.tabuleiro
+﻿namespace tabuleiro
 {
     enum Cor
     {
