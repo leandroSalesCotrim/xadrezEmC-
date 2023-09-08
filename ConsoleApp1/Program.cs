@@ -42,9 +42,10 @@ namespace xadrez_console
                     }
                     
                 }
+                Console.Clear();
+                Tela.imprimirPartida(partida);
 
 
-                Tela.imprimirTabuleiro(partida.tab);
             }catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
