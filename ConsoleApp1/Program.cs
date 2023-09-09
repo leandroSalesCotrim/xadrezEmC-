@@ -33,6 +33,7 @@ namespace xadrez_console
                         Posicao destino = Tela.lerPosicaoXadrez().ToPosicao();
 
                         partida.validarPosicaoDeDestino(origem, destino);
+                        Console.WriteLine();
                         partida.realizaJogada(origem, destino);
                     }
                     catch (TabuleiroException ex)
